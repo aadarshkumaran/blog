@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/react.svg"
+import logo from "../assets/logo.svg"
 import menu from "../assets/menu.svg"
 import close from "../assets/close.svg"
 
@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className='w-full h-[80px] z-10 bg-white fixed drop-shadow-lg relative'>
             <div className='flex justify-between items-center m-auto w-full h-full md:max-w-[1240px]'>
                 <div className='flex items-center'>
-                    <a href="/"><img src={logo}  alt="logo" className='font-bold sm:ml-10 ss:ml-10 md:ml-3 opacity-[55%] w-full h-[25px]' /></a>
+                    <a href="/"><img src={logo}  alt="logo" className='font-bold xs:ml-10 sm:ml-10 ss:ml-10 md:ml-3 opacity-[55%] w-full h-[25px]' /></a>
                 </div>
 
 
