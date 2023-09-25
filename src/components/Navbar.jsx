@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className='w-full h-[80px] z-10 bg-white fixed drop-shadow-lg relative'>
             <div className='flex justify-between items-center m-auto w-full h-full md:max-w-[1240px]'>
                 <div className='flex items-center'>
-                    <a href="/"><img src={logo}  alt="logo" className='font-bold xs:ml-10 sm:ml-10 ss:ml-10 md:ml-3 opacity-[55%] w-full h-[25px]' /></a>
+                    <a href="/"><img src={logo}  alt="logo" className='font-bold xx_s:ml-10 xxs:ml-10 xs:ml-10 sm:ml-10 ss:ml-10 md:ml-3 opacity-[55%] w-full h-[25px]' /></a>
                 </div>
 
 
@@ -33,7 +33,7 @@ const Navbar = () => {
                 </div>
 
                 <div className='md:hidden' onClick={handleClick}>
-                    <img src={!toggle ? menu : close} alt="menu" className='w-[28px] h-[28px] object-contain mr-10' />
+                    <img src={!toggle ? menu : close} alt="menu" className='w-[28px] h-[28px] object-contain mr-10'/>
                 </div>
 
 
